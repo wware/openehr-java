@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>openehr</groupId>
+  <artifactId>ref_impl_java</artifactId>
+  <packaging>pom</packaging>
+  <version>1.0.2-SNAPSHOT</version>
+  <name>The openEHR Reference Java Implementation</name>
+  <organization>
+    <name>The openEHR Foundataion</name>
+  </organization>
+  <modules>
+    <module>openehr-rm-core</module>
+    <module>openehr-rm-domain</module>
+    <module>openehr-aom</module>
+    <module>openehr-ap</module>
+    <module>adl-parser</module>
+    <module>dadl-parser</module>
+    <module>oet-parser</module>        
+    <module>adl-serializer</module>
+    <module>xml-serializer</module>
+    <module>measure-serv</module>
+    <module>mini-termserv</module>
+    <module>rm-builder</module>
+    <module>rm-skeleton</module>
+    <module>xml-binding</module>
+    <module>dadl-binding</module>
+  </modules>  
+</project>
